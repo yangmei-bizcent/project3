@@ -1,0 +1,155 @@
+{
+    "doctorDetail": {
+        "doctId":"医生Id",
+        "doctName":"蒋新萍",
+        "doctPhoto":"http://localhost:8080/static/img/visittime_doctorphoto.png",
+        "doctPosition": "主任医师",
+        "schedulStatus": "1",
+        "stars": "9.1",
+        "clinicVisits": "接诊量:30",
+        "doctSkill": "从事临床皮肤病的治疗二十年",
+        "outpatientFee": "200",
+        "unusedSource": "",
+        "schedulList": [{
+            "schedulId": "0001",
+            "clinicDate": "2018-07-10",
+            "tAmPm": {
+                "ampmType": null,
+                "ampmView": null
+            },
+            "week": "星期二",
+            "unusedSource": "20"
+        }, {
+            "schedulId": "0002",
+            "clinicDate": "2018-07-11",
+            "tAmPm": {
+                "ampmType": null,
+                "ampmView": null
+            },
+            "week": "星期三",
+            "unusedSource": "20"
+        }],
+        "departmentName": "消化内科",
+        "docIntroduction": "从事临床皮肤病的治疗二十年，曾在天津南开医院、北京广安门医院（中国中医研究院）、山西省医学院第二附属医院进修学习，在全国及省级刊物上发表过多篇学术论文，多次参加中华中医学会皮肤病分会，积累了丰富的临床经验，擅长治疗各种细菌、病毒、真菌感染性皮肤病，变态反应性皮肤病，尤其对银屑病（牛皮癣）、白癜风、痤疮（粉刺）、过敏性紫癜、各期湿疹、慢性荨麻疹、各种顽癣、久治不愈的顽固性皮肤病，用中西医结合治疗，尤以中医为主，疗效卓著。"
+    },
+    "schedulList": [{
+        "schedulId": "0001",
+        "deptId": "2",
+        "doctId": "1",
+        "clinicDate": "2018-07-10",
+        "tAmPm": {
+            "ampmType": "A",
+            "ampmView": "上午"
+        },
+        "week": "星期二",
+        "unusedSource": "11",
+        "genre": {
+            "orderType": "1",
+            "clinicType": "1",
+            "clinicTypeValue": "普通"
+        },
+        "showFee": "8.0",
+        "payFee": "10.0"
+    }, {
+        "deptId": "3",
+        "doctId": "2",
+        "clinicDate": "2018-07-11",
+        "tAmPm": {
+            "ampmType": "P",
+            "ampmView": "下午"
+        },
+        "week": "星期三",
+        "unusedSource": "0",
+        "genre": {
+            "orderType": "2",
+            "clinicType": "1",
+            "clinicTypeValue": "普通"
+        },
+        "showFee": "8.0",
+        "payFee": "10.0"
+    }, {
+        "schedulId": "0003",
+        "deptId": "5",
+        "doctId": "4",
+        "clinicDate": "2018-07-12",
+        "tAmPm": {
+            "ampmType": "F",
+            "ampmView": "白天"
+        },
+        "week": "星期四",
+        "unusedSource": "15",
+        "genre": {
+            "orderType": "1",
+            "clinicType": "2",
+            "clinicTypeValue": "专家"
+        },
+        "showFee": "80.0",
+        "payFee": "100.0"
+    }, {
+        "schedulId": "0004",
+        "deptId": "6",
+        "doctId": "5",
+        "clinicDate": "2018-07-13",
+        "tAmPm": {
+            "ampmType": "N",
+            "ampmView": "夜间"
+        },
+        "week": "星期五",
+        "unusedSource": "15",
+        "genre": {
+            "orderType": "2",
+            "clinicType": "2",
+            "clinicTypeValue": "专家"
+        },
+        "showFee": "80.0",
+        "payFee": "100.0"
+    }, {
+        "schedulId": "0004",
+        "deptId": "6",
+        "doctId": "5",
+        "clinicDate": "2026-09-30",
+        "tAmPm": {
+            "ampmType": "W",
+            "ampmView": "全天"
+        },
+        "week": "星期三",
+        "unusedSource": "15",
+        "genre": {
+            "orderType": "1",
+            "clinicType": "1",
+            "clinicTypeValue": "普通"
+        },
+        "showFee": "18.0",
+        "payFee": "12.0"
+    }],
+    "departmentList": null,
+    "viewUcUiConfigs": [{
+        "platformHospitalId": "ea3ee53f-fe0a-44db-8386-bdade497b235",
+        "ucUiFlowId": "98f78fb4-b2d2-11e6-a249-525400644ee2",
+        "ucUiConfigId": "513b7a7f-b667-11e6-bca2-0050569b08a8",
+        "parentUcUiConfigId": null,
+        "formKey": "1-6-1",
+        "displayType": "0",
+        "seq": "50",
+        "headDesc": "展示医生简介",
+        "componentKey": "#viewDoctorDetail",
+        "componentValue": "1",
+        "componentDesc": "徐月丹从事临床皮肤病的治疗二十年，曾在天津南开医院、北京广安门医院（中国中医研究院）、\" +\r\n                \"山西省医学院第二附属医院进修学习，在全国及省级刊物上发表过多篇学术论文，多次参加中华中医学会皮肤病分\" +\r\n                \"会，积累了丰富的临床经验，擅长治疗各种细菌、病毒、真菌感染性皮肤病，变态反应性皮肤病，尤其对银屑病（牛皮癣）\" +\r\n                \"、白癜风、痤疮（粉刺）、过敏性紫癜、各期湿疹、慢性荨麻疹、各种顽癣、久治不愈的顽固性皮肤病，用中西医结合治疗，\" +\r\n                \"尤以中医为主，疗效卓著。",
+        "deletionState": null,
+        "required": "0"
+    }, {
+        "platformHospitalId": "ea3ee53f-fe0a-44db-8386-bdade497b235",
+        "ucUiFlowId": "98f78fb4-b2d2-11e6-a249-525400644ee2",
+        "ucUiConfigId": "27dec4c7-9363-4bf6-82e7-6ea08f346be1",
+        "parentUcUiConfigId": null,
+        "formKey": "1-6-1",
+        "displayType": "0",
+        "seq": "10",
+        "headDesc": "医生同时坐诊多个科室",
+        "componentKey": "#deptListInfo",
+        "componentValue": "1",
+        "componentDesc": null,
+        "deletionState": null,
+        "required": "0"
+    }]
+}

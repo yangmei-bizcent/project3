@@ -1,0 +1,15 @@
+@import 'base_common.scss';
+.page-container {
+    .mint-header {
+        @include font-dpr(13px);
+        color: #8f8f8f;
+        @include cal(height, 45px);
+        background-color: #fff;
+        border-bottom: 1px solid #d9d9d9;
+        transform: scaleZ(0.5);
+    }
+    .mint-header-title {
+        @include font-dpr(17px);
+        color: #4c4c4c;
+    }
+}

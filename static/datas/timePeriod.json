@@ -1,0 +1,53 @@
+{
+    "periodList":[{
+        "visitTimeId": "50053",
+        "clinicDate": "2018-07-12",
+        "visitTime": "07:30",
+        "remainNumber": "13",
+        "number": null,
+        "tAmPm": {
+            "ampmType": "A",
+            "ampmView": "上午"
+        }
+    }, {
+        "visitTimeId": "50181",
+        "clinicDate": "2018-07-12",
+        "visitTime": "08:30",
+        "remainNumber": "19",
+        "number": null,
+        "tAmPm": {
+            "ampmType": "A",
+            "ampmView": "上午"
+        }
+    }, {
+        "visitTimeId": "50102",
+        "clinicDate": "2018-07-12",
+        "visitTime": "09:00",
+        "remainNumber": "11",
+        "number": null,
+        "tAmPm": {
+            "ampmType": "A",
+            "ampmView": "上午"
+        }
+    }, {
+        "visitTimeId": "50154",
+        "clinicDate": "2018-07-12",
+        "visitTime": "12:30",
+        "remainNumber": "20",
+        "number": null,
+        "tAmPm": {
+            "ampmType": "P",
+            "ampmView": "下午"
+        }
+    }, {
+        "visitTimeId": "50118",
+        "clinicDate": "2018-07-12",
+        "visitTime": "13:30",
+        "remainNumber": "30",
+        "number": null,
+        "tAmPm": {
+            "ampmType": "P",
+            "ampmView": "下午"
+        }
+    }]
+}

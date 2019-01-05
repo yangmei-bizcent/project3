@@ -1,0 +1,97 @@
+@import 'base_common.scss';
+.margintop45 {
+    @include cal(margin-top, 45px);
+}
+.page-container {
+    color: #333;
+    * {
+        box-sizing: border-box;
+    }
+    .color-8f8f8f {
+        color: #8f8f8f;
+    }
+    .color-ffae36 {
+        color: #ffae36;
+    }
+    .color-1c97fc {
+        color: #1c97fc;
+    }
+    .color-1c98fc {
+        color: #1c98fc;
+    }
+    .color-d6d6d6 {
+        color: #d6d6d6;
+    }
+    .color-3d3d3d {
+        color: #3d3d3d;
+    }
+    .color-d08031 {
+        color: #d08031;
+    }
+
+    .background-fdedc9 {
+        background-color: #fdedc9;
+    }
+    .background-1c98fc {
+        background-color: #1c98fc;
+    }
+
+    .borderRadius2 {
+        border-radius: 2px;
+    }
+    .top0 {
+        top: 0;
+    }
+    .zIndex0 {
+        z-index: 0;
+    }
+    .marginleft8 {
+        @include cal(margin-left, 8px);
+    }
+    .border-Y-eaeaea {
+        background-size: 120% 1px;
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-origin: content-box;
+        background-image: linear-gradient(180deg, #eaeaea, #eaeaea 50%, transparent 50%);
+    }
+    // flex
+    .flex-align-spacebetween {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        justify-content: space-between;
+    }
+    .tablecell {
+        display: table-cell;
+    }
+    .mint-cell-wrapper {
+        @include font-dpr(14px);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#ebebeb), color-stop(50%, #ebebeb), color-stop(50%, transparent));
+        background-image: linear-gradient(180deg, #ebebeb, #ebebeb 50%, transparent 50%);
+    }
+    .mint-search {
+        height: auto;
+    }
+    .mint-searchbar {
+        @include cal(padding, 10px);
+        background-color: #f0f3f5;
+    }
+    .mint-tab-item-label {
+        @include font-dpr(14px);
+        color: #c2c2c2;
+    }
+    .mint-navbar {
+        .mint-tab-item.is-selected {
+            margin-bottom: 0;
+        }
+    }
+    .mint-tab-item.is-selected {
+        .mint-tab-item-label {
+            color: #1c98fc;
+        }
+    }
+}

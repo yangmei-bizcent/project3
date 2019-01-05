@@ -1,0 +1,138 @@
+{
+    "doctList": [{
+        "doctId": "01",
+        "doctName": "杜坚宗",
+        "doctPhoto": "http://ok7wlv1ee.bkt.clouddn.com/17-8-16/74969861.jpg",
+        "doctPosition": "主任医师",
+        "schedulStatus": "1",
+        "stars": "9.1",
+        "clinicVisits": "39",
+        "doctSkill": "擅长老年呼吸疾病，如肺部感染、慢性阻塞性肺病、肺癌的诊治、慢性咳嗽的中西医结合治疗，以及纤维支气管镜检查及介入治疗。",
+        "outpatientFee": "50",
+        "unusedSource": "120",
+        "totalNumber": "200",
+        "schedulList": []
+    }, {
+        "doctId": "02",
+        "doctName": "周晓曦",
+        "doctPhoto": "http://ok7wlv1ee.bkt.clouddn.com/17-8-16/4993513.jpg",
+        "doctPosition": "住院医师",
+        "schedulStatus": "2",
+        "stars": "9.2",
+        "clinicVisits": "82",
+        "doctSkill": "擅长老年肺部感染，慢性阻塞性肺病，肺癌及慢性咳嗽的诊治，以及纤维支气管镜检查及介入治疗。",
+        "outpatientFee": "170",
+        "unusedSource": "0",
+        "totalNumber": "50",
+        "schedulList": [{
+            "schedulId": "0002",
+            "clinicDate": "2018-07-11",
+            "tAmPm": {
+                "ampmType": "A",
+                "ampmView": "上午"
+            },
+            "week": "星期三",
+            "unusedSource": "12"
+        }, {
+            "schedulId": "0002",
+            "clinicDate": "2018-07-12",
+            "tAmPm": {
+                "ampmType": "P",
+                "ampmView": "下午"
+            },
+            "week": "星期四",
+            "unusedSource": "0"
+        }]
+    }, {
+        "doctId": "03",
+        "doctName": "任爱华",
+        "doctPhoto": "http://ok7wlv1ee.bkt.clouddn.com/17-8-17/52854179.jpg",
+        "doctPosition": "主任医师",
+        "schedulStatus": "3",
+        "stars": "9.3",
+        "clinicVisits": "210",
+        "doctSkill": "以综合康复治疗手段改善心脏病患者心脏功能、防止血管再狭窄、提高心脏病患者的生活质量。",
+        "outpatientFee": "200",
+        "unusedSource": "18",
+        "schedulList": [{
+            "schedulId": "0002",
+            "clinicDate": "2018-07-11",
+            "tAmPm": {
+                "ampmType": "A",
+                "ampmView": "上午"
+            },
+            "week": "星期三",
+            "unusedSource": "12"
+        }, {
+            "schedulId": "0002",
+            "clinicDate": "2018-07-12",
+            "tAmPm": {
+                "ampmType": "P",
+                "ampmView": "下午"
+            },
+            "week": "星期四",
+            "unusedSource": "0"
+        }]
+    }, {
+        "doctId": "04",
+        "doctName": "严静",
+        "doctPhoto": "http://ok7wlv1ee.bkt.clouddn.com/17-8-17/27792594.jpg",
+        "doctPosition": "副主任医师",
+        "schedulStatus": "4",
+        "stars": "9.1",
+        "clinicVisits": "300",
+        "doctSkill": "擅长危重病与多种心血管疾病的诊治，在冠心病、急性心肌梗塞、各种严重心律失常、心力衰竭、呼吸衰竭、感染性休克及多脏器功能衰竭等方面具有丰富的诊治与抢救经验。",
+        "outpatientFee": "200",
+        "unusedSource": "32",
+        "schedulList": [{
+            "schedulId": "0002",
+            "clinicDate": "2018-07-11",
+            "tAmPm": {
+                "ampmType": "A",
+                "ampmView": "上午"
+            },
+            "week": "星期三",
+            "unusedSource": "12"
+        }, {
+            "schedulId": "0002",
+            "clinicDate": "2018-07-12",
+            "tAmPm": {
+                "ampmType": "P",
+                "ampmView": "下午"
+            },
+            "week": "星期四",
+            "unusedSource": "0"
+        }]
+    }, {
+        "doctId": "05",
+        "doctName": "唐礼江",
+        "doctPhoto": "http://ok7wlv1ee.bkt.clouddn.com/17-8-17/41432741.jpg",
+        "doctPosition": "主任医师",
+        "schedulStatus": "1",
+        "stars": "8.7",
+        "clinicVisits": "110",
+        "doctSkill": "擅长心血管病介入诊断治疗（冠心病支架术、心律失常消融治疗、先天性心脏病封堵术及心脏瓣膜病和周围血管疾病）和预防。",
+        "outpatientFee": "200",
+        "unusedSource": "20",
+        "schedulList": [{
+            "schedulId": "0002",
+            "clinicDate": "2018-07-11",
+            "tAmPm": {
+                "ampmType": "A",
+                "ampmView": "上午"
+            },
+            "week": "星期三",
+            "unusedSource": "12"
+        }, {
+            "schedulId": "0002",
+            "clinicDate": "2018-07-12",
+            "tAmPm": {
+                "ampmType": "P",
+                "ampmView": "下午"
+            },
+            "week": "星期四",
+            "unusedSource": "0"
+        }]
+    }],
+    "departmentIntroduction": "我是科室介绍，科室具有国内一流的先进设备，目前服役的医疗设备达两千多万元。能开展纯音测听、中耳分析、听诱发电位、全自动化耳石诊断与复位、视频眼震图、耳声发射、重心平衡功能、鼻窥镜、耳窥镜、频闪喉镜、电子鼻咽喉镜、纤维喉镜等各项专科检查，并具有先进的手术设备。具有良好的门诊就诊环境和独立的专科病房。"
+}

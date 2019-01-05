@@ -1,0 +1,27 @@
+{
+    "branchList": [{
+        "branchIdentify": "branch1",
+        "branchId": "0",
+        "branchName": "北京大学口腔医院总院"
+    }, {
+        "branchIdentify": "branch2",
+        "branchId": "1",
+        "branchName": "北京大学口腔医院第一门诊部"
+    }, {
+        "branchIdentify": "branch3",
+        "branchId": "2",
+        "branchName": "北京大学口腔医院第二门诊部"
+    }, {
+        "branchIdentify": "branch4",
+        "branchId": "3",
+        "branchName": "北京大学口腔医院第三门诊部"
+    }, {
+        "branchIdentify": "branch5",
+        "branchId": "4",
+        "branchName": "北京大学口腔医院第四门诊部"
+    }, {
+        "branchIdentify": "branch6",
+        "branchId": "5",
+        "branchName": "北京大学口腔医院第五门诊部"
+    }]
+}

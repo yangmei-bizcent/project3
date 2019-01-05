@@ -1,0 +1,153 @@
+@import './var.scss';
+@mixin font-dpr($font-size){
+    font-size: $font-size;
+    [data-dpr="2"] & {
+        font-size: $font-size * 2;
+    }
+    [data-dpr="2.5"] & {
+        font-size: round($font-size * 2.5);
+    }
+    [data-dpr="2.75"] & {
+        font-size: round($font-size * 2.75);
+    }
+    [data-dpr="3"] & {
+        font-size: $font-size * 3;
+    }
+    [data-dpr="4"] & {
+        font-size: $font-size * 4;
+    }
+}
+@mixin cal($style-name, $style-value){
+    #{$style-name}: $style-value;
+    [data-dpr="2"] & {
+        #{$style-name}: $style-value * 2;
+    }
+    [data-dpr="2.5"] & {
+        #{$style-name}: round($style-value * 2.5);
+    }
+    [data-dpr="2.75"] & {
+        #{$style-name}: round($style-value * 2.75);
+    }
+    [data-dpr="3"] & {
+        #{$style-name}: $style-value * 3;
+    }
+    [data-dpr="4"] & {
+        #{$style-name}: $style-value * 4;
+    }
+}
+body{
+    font-family: 'PingFang';
+}
+// height
+.height-per100 {
+    height: 100%;
+}
+// border-radius
+.borderRadius2 {
+    border-radius: 2px;
+}
+// tag
+.tag-blue {
+    color: $color-1c97fc;
+    height: 17px;
+    padding: 0 6px;
+    border-radius: 1px;
+    background: $color-e1effa;
+}
+.tag-green {
+    color: $color-16b797;
+    height: 17px;
+    padding: 0 6px;
+    border-radius: 1px;
+    background: linear-gradient(-90deg, rgba(230,250,246,0.00) 0%, #E6FAF6 25%, #E6FAF6 100%);;
+}
+// margin
+.marginleft12 {
+    margin-left: 12px;
+}
+// flex
+.flex-alignend-justify {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.flex-align-justifystart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.flex-align-justifybetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-alignstart-justifystart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.flex-alignstart-justify {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.flex-align-justify-column {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.flex-align-justifystart-column {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+}
+.flex-align-justifybetween-column {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+.flex-alignstart-justifybetween-column {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+.flex-alignstart-justify-column {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+.flex-alignbetween-justify-column {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+}
+.flex-alignstart-justifyend-column {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-end;
+}
+.flex-alignstart-justifystart-column {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+.clearfix:after{
+    content: "020"; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;  
+    }
+  
+  .clearfix {
+    /* 触发 hasLayout */ 
+    zoom: 1; 
+}
